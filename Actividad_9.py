@@ -28,10 +28,10 @@ while opcion != "4":
                         "nombre": nombre,
                         "destino":{}
                     }
-                    visitas = int(input("¿Cuantos destinos desea registrar? (máximo 5)"))
-                    for i in range(visitas):
-                        clave = input("Clave del destino:")
-                        destino = input(f"Destino {i}: ")
+                    visitas = int(input("¿Cuantos destinos desea registrar? (máximo 5): "))
+                    for j in range(visitas):
+                        clave = input("Código del destino:")
+                        destino = input(f"Destino {j + 1}: ")
                         clientes[codigo]["destino"][clave] =  {
                             "destino": destino,
                         }
@@ -41,9 +41,27 @@ while opcion != "4":
                     for codigo, cliente in clientes.items():
                         print(f"\nCódigo de cliente: {codigo}")
                         print(f"Nombre: {cliente['nombre']}")
+                        print("Destinos:", end=" ")
                         for clave, destino in clientes[codigo]["destino"].items():
-                            print(f"Destinos: {destino}", end="")
+                            print(f"{destino['destino']}", end=" ")
                 else:
                     print("No hay clientes registrados")
+            case "3":
+                if clientes:
+                    contador = 0
+                    visitas = 0
+                    mayor_visitante = ""
+                    for codigo, cliente in clientes.items():
+                        contador = contar_destinos(cliente["destino"])
+                        if contador > visitas:
+                            visitas = contador
+                            mayor_visitante = cliente["nombre"]
+                    print("Total de destinos registrados: ", mayor_visitante)
+                else:
+                    print("No hay clientes registrados")
+            case "4":
+                print("Saliendo...")
+            case __:
+                print("Opción no disponible")
     except Exception as e:
         print("Ha ocurrido un error: " + str(e))
