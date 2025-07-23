@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7625508e-85f6-40d1-a2f1-079cd6a5de58" name="Changes" comment="mostrar clientes">
+    <list default="true" id="7625508e-85f6-40d1-a2f1-079cd6a5de58" name="Changes" comment="Modificar mostrar clientes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Actividad_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Actividad_9.py" afterDir="false" />
     </list>
@@ -66,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753287038442</updated>
-      <workItem from="1753287039710" duration="3261000" />
+      <workItem from="1753287039710" duration="4461000" />
     </task>
     <task id="LOCAL-00001" summary="Agregar registros">
       <option name="closed" value="true" />
@@ -84,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753288836696</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Modificar mostrar clientes">
+      <option name="closed" value="true" />
+      <created>1753290770703</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753290770703</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +112,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Agregar registros" />
     <MESSAGE value="mostrar clientes" />
-    <option name="LAST_COMMIT_MESSAGE" value="mostrar clientes" />
+    <MESSAGE value="Modificar mostrar clientes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificar mostrar clientes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -118,6 +127,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Actividad_9$Actividad_9.coverage" NAME="Actividad_9 Coverage Results" MODIFIED="1753290226846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Actividad_9$Actividad_9.coverage" NAME="Actividad_9 Coverage Results" MODIFIED="1753291397888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

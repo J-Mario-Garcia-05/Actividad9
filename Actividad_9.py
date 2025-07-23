@@ -1,13 +1,11 @@
 def contar_destinos(destinos):
-    if not destinos:
+    if destinos == "":
         return 0
-    else:
-        return 1 + contar_destinos(destinos[1:])
 
 clientes = {}
 opcion = "0"
 while opcion != "4":
-    print("\t==MENÚ==")
+    print("\n\t==MENÚ==")
     print("1.Registrar clientes y destinos visitados")
     print("2.Mostrar clientes y destinos visitados")
     print("3.Mostrar total de destinos registrados")
