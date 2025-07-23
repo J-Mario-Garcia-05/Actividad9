@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7625508e-85f6-40d1-a2f1-079cd6a5de58" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Actividad 9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Actividad_9.py" afterDir="false" />
+    <list default="true" id="7625508e-85f6-40d1-a2f1-079cd6a5de58" name="Changes" comment="Agregar registros">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actividad_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Actividad_9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "J-Mario-Garcia-05"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/J-Mario-Garcia-05/Actividad9.git",
+    "accountId": "19dff7a0-6482-46dd-9416-64b714f2d235"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -57,12 +65,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753287038442</updated>
-      <workItem from="1753287039710" duration="772000" />
+      <workItem from="1753287039710" duration="1547000" />
     </task>
+    <task id="LOCAL-00001" summary="Agregar registros">
+      <option name="closed" value="true" />
+      <created>1753288149621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753288149621</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Agregar registros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar registros" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
