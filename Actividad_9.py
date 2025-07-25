@@ -1,9 +1,12 @@
 def contar_destinos(destinos):
-    if destinos == "":
+    if not destinos:
         return 0
+    else:
+        return 1 + contar_destinos(destinos[1:])
 
 clientes = {}
 opcion = "0"
+total_visitas = 0
 while opcion != "4":
     print("\n\t==MENÚ==")
     print("1.Registrar clientes y destinos visitados")
@@ -46,15 +49,17 @@ while opcion != "4":
                     print("No hay clientes registrados")
             case "3":
                 if clientes:
-                    contador = 0
-                    visitas = 0
+                    visita_max = 0
                     mayor_visitante = ""
                     for codigo, cliente in clientes.items():
-                        contador = contar_destinos(cliente["destino"])
-                        if contador > visitas:
-                            visitas = contador
+                        destinos = list(cliente["destino"])
+                        contador_visitas = contar_destinos(destinos)
+                        total_visitas += contador_visitas
+                        if contador_visitas > visita_max:
+                            visita_max = contador_visitas
                             mayor_visitante = cliente["nombre"]
-                    print("Total de destinos registrados: ", mayor_visitante)
+                    print("Total de destinos registrados entre todos los clientes: ", total_visitas)
+                    print(f"Cliente con más destinos: {mayor_visitante} con {visita_max} visitas")
                 else:
                     print("No hay clientes registrados")
             case "4":
